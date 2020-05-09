@@ -10,7 +10,7 @@ const machining_data = (req) => {
     return data;
 };
 
-// CREATE
+// Create
 const post_machining_parameter_set = (req, res, next) => {
     console.log('post_machining_parameter_set');
     let data = machining_data(req);
@@ -59,7 +59,7 @@ const get_machining_parameter_set = (req, res, next) => {
     });
 };
 
-// UPDATE
+// Update
 const put_machining_parameter_set = (req, res, next) => {
     console.log('put_machining_parameter_set');
     let id = req.params.id;

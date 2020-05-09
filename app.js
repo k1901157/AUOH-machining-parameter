@@ -21,7 +21,7 @@ app.use((req, res, next) => {
 
 app.use("/", express.static("public"));
 
-//CREATE
+//Create
 app.post("/machining-parameter-set", machining_controller.post_machining_parameter_set);
 
 //Read
