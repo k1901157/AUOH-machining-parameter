@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/k1901157/AUOH-machining-parameter#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongoose": "^5.9.13"
   },
   "devDependencies": {
